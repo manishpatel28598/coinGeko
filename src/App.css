@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white; /* This ensures text is readable on a black background */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-collapse: collapse;
+}
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+tr {
+  border-bottom: 1px solid #585757;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
